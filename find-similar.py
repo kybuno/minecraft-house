@@ -1,6 +1,9 @@
 #i want to find groups of similar images in python!
 #maybe with a UI someday?
 
+#returns a list of image pairs sorted by similarity! 
+# lowest number means closest similarity
+
 from PIL import Image
 from image_functions import get_image_list, downsize, difference
 from os.path import join

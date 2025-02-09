@@ -1,3 +1,5 @@
+#lets you rename all files in a folder to the same name, plus a number behind
+
 import os
 from os import listdir
 from os.path import join
